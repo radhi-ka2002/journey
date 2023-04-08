@@ -99,7 +99,7 @@
   
   .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.781), transparent),
-      url('./images/section1.jpg');
+      url(/image/images/section1.jpg);
     min-height: 90vh;
     background-position: center;
     background-size: cover;
@@ -116,12 +116,24 @@
   }
   
   /* SECTION LOCATIONS  */
-  
+  .location-head{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), transparent), 
+    url(/image/images/new-york-page.png),url(/image/images/cloud.png);
+    background-position: left center, center ;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align:  left center;
+   
+  }
+ 
   /* SECTION BENFITS  */
   
-  .benefits {
+    .benefits {
     height: 100vh;
-  }
+   }
   
   .benefits-head {
     background-color: #131c27;
@@ -185,7 +197,7 @@
   .contact{
     min-height:100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.781), transparent),
-      url('./images/contact.jpg');
+      url(/image/images/contact.jpg);
     background-size:cover;
     background-position:center;
     display:flex;
@@ -230,4 +242,30 @@
     width:100%;
     border-top-left-radius:0;
     border-top-right-radius:0;
+  }
+
+  footer{
+    background-color: #131c27;
+    color:white;
+    
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    padding: 1rem;
+    min-height: 5vh;
+    min-width: fit-content;
+    
+  }
+  .foot-nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    list-style: none;
+    flex-direction: row;
+    
+ }
+  .foot-item img{
+    cursor:pointer;
+   
   }
