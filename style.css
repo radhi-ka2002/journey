@@ -1,0 +1,233 @@
+/* GLobal Styles  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  li,
+  button,
+  label,
+  input {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 5rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+  }
+  
+  h4,
+  h5 {
+    font-size: 2.5rem;
+  }
+  
+  button {
+    background-color: rgba(15, 149, 190, 0.795);
+    padding: 1.5rem 4.5rem;
+    border: none;
+    border-radius: 2rem;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #131c27;
+  }
+  
+  /* Section Navbar  */
+  
+  .main-head {
+    background-color: #131c27;
+    color: antiquewhite;
+  }
+  
+  .main-head-nav {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    min-height: 10vh;
+  }
+  
+  #logo {
+    flex: 1 1 40rem;
+    padding-right: 2rem;
+    font-family: 'Limelight', 'cursive';
+  }
+  
+  .main-head-nav-menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 40rem;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem;
+    transition: 1s;
+  }
+  
+  .menu-item a:hover {
+    background-color: aliceblue;
+    color: #131c27;
+    border-radius: 2rem;
+  }
+  
+  /* Section Home  */
+  
+  .home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), transparent),
+      url('./images/section1.jpg');
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .home h3 {
+    padding-bottom: 3rem;
+  }
+  
+  /* SECTION LOCATIONS  */
+  
+  /* SECTION BENFITS  */
+  
+  .benefits {
+    height: 100vh;
+  }
+  
+  .benefits-head {
+    background-color: #131c27;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    text-align: center;
+  }
+  
+  .benefits-head h3 {
+    padding-top: 5rem;
+  }
+  
+  .cards {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin: 2rem;
+  }
+  
+  .card {
+    flex: 1 1 25rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5), 0px 20px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card img {
+    height: 8rem;
+  }
+  
+  .card div {
+    background-color: #131c27;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card h4 {
+    padding: 2rem 1rem;
+  }
+  .card p {
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  /* CONTACT STYLE  */
+  
+  .contact{
+    min-height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), transparent),
+      url('./images/contact.jpg');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .form-wrapper{
+    background:rgba(19, 28, 39, 0.8);
+    color:white;
+    width:60%;
+    border-radius:2.5rem;
+  }
+  
+  .form-head{
+    text-align:center;
+    padding:5rem;
+  }
+  
+  .field{
+    padding:2rem;
+    text-align:center;
+  }
+  
+  form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center
+  }
+  
+  .field-form{
+    padding-bottom:3rem;
+  }
+  
+  .input{
+    padding:1rem 3rem;
+  }
+  
+  .form-wrapper button{
+    padding:2rem;
+    width:100%;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+  }
